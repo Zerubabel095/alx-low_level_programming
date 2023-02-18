@@ -1,2 +1,5 @@
 #!/bin/bash
-./a.out
+export CFILE=0-main.c
+./0-preprocessor
+rm 0-preprocessor
+gcc main.c -o c
